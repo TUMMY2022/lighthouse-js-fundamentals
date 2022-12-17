@@ -1,9 +1,9 @@
 
-const sayHello  = function (pass) {
-  if(pass==="yes"){
-    console.log("Hello, world");
-  } else console.log("bye world")
-
+const sayHello  = function (name) {
+  console.log("Hello, " + name);
 }
-var pass;
-sayHello("No")
+
+sayHello("Caliban");
+sayHello("Miranda");
+sayHello("Ferdinand");
+sayHello("Tomy");
